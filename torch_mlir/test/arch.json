@@ -1,0 +1,270 @@
+{
+  "clock": 1000000000,
+  "cores": 400,
+  "datatype": {
+    "bytes": 4,
+    "name": "fp32"
+  },
+  "devicename": "torch_mlir",
+  "interfaces": [
+    {
+      "bytes_per_second": 1000000000,
+      "dst": 1,
+      "src": 0
+    },
+    {
+      "bytes_per_second": 1000000000,
+      "dst": 0,
+      "src": 1
+    },
+    {
+      "bytes_per_second": 1000000000,
+      "dst": 2,
+      "src": 0
+    },
+    {
+      "bytes_per_second": 1000000000,
+      "dst": 0,
+      "src": 2
+    },
+    {
+      "bytes_per_second": 1.7976931348623157e+308,
+      "dst": 2,
+      "src": 1
+    },
+    {
+      "bytes_per_second": 1.7976931348623157e+308,
+      "dst": 1,
+      "src": 2
+    }
+  ],
+  "kernels": {
+    "aten._adaptive_avg_pool2d": {
+      "efficiency": 1,
+      "name": "aten._adaptive_avg_pool2d"
+    },
+    "aten._adaptive_avg_pool2d_backward": {
+      "efficiency": 1,
+      "name": "aten._adaptive_avg_pool2d_backward"
+    },
+    "aten._convolution": {
+      "efficiency": 1,
+      "name": "aten._convolution"
+    },
+    "aten._convolution_backward": {
+      "efficiency": 1,
+      "name": "aten._convolution_backward"
+    },
+    "aten._log_softmax": {
+      "efficiency": 1,
+      "name": "aten._log_softmax"
+    },
+    "aten._log_softmax_backward_data": {
+      "efficiency": 1,
+      "name": "aten._log_softmax_backward_data"
+    },
+    "aten.add": {
+      "efficiency": 1,
+      "name": "aten.add"
+    },
+    "aten.add_": {
+      "efficiency": 1,
+      "name": "aten.add_"
+    },
+    "aten.addmm": {
+      "efficiency": 1,
+      "name": "aten.addmm"
+    },
+    "aten.aie_launch": {
+      "efficiency": 1,
+      "name": "aten.aie_launch"
+    },
+    "aten.alloc": {
+      "efficiency": 1,
+      "name": "aten.alloc"
+    },
+    "aten.as_strided": {
+      "efficiency": 1,
+      "name": "aten.as_strided"
+    },
+    "aten.batch_norm": {
+      "efficiency": 1,
+      "name": "aten.batch_norm"
+    },
+    "aten.constant": {
+      "efficiency": 1,
+      "name": "aten.constant"
+    },
+    "aten.div": {
+      "efficiency": 1,
+      "name": "aten.div"
+    },
+    "aten.div_": {
+      "efficiency": 1,
+      "name": "aten.div_"
+    },
+    "aten.dropout": {
+      "efficiency": 1,
+      "name": "aten.dropout"
+    },
+    "aten.expand": {
+      "efficiency": 1,
+      "name": "aten.expand"
+    },
+    "aten.flatten": {
+      "efficiency": 1,
+      "name": "aten.flatten"
+    },
+    "aten.gather": {
+      "efficiency": 1,
+      "name": "aten.gather"
+    },
+    "aten.hardtanh": {
+      "efficiency": 1,
+      "name": "aten.hardtanh"
+    },
+    "aten.hardtanh_": {
+      "efficiency": 1,
+      "name": "aten.hardtanh_"
+    },
+    "aten.hardtanh_backward": {
+      "efficiency": 1,
+      "name": "aten.hardtanh_backward"
+    },
+    "aten.max_pool2d": {
+      "efficiency": 1,
+      "name": "aten.max_pool2d"
+    },
+    "aten.max_pool2d_with_indices": {
+      "efficiency": 1,
+      "name": "aten.max_pool2d_with_indices"
+    },
+    "aten.max_pool2d_with_indices_backward": {
+      "efficiency": 1,
+      "name": "aten.max_pool2d_with_indices_backward"
+    },
+    "aten.mean": {
+      "efficiency": 1,
+      "name": "aten.mean"
+    },
+    "aten.mm": {
+      "efficiency": 1,
+      "name": "aten.mm"
+    },
+    "aten.mul": {
+      "efficiency": 1,
+      "name": "aten.mul"
+    },
+    "aten.mul_": {
+      "efficiency": 1,
+      "name": "aten.mul_"
+    },
+    "aten.native_batch_norm": {
+      "efficiency": 1,
+      "name": "aten.native_batch_norm"
+    },
+    "aten.native_batch_norm_backward": {
+      "efficiency": 1,
+      "name": "aten.native_batch_norm_backward"
+    },
+    "aten.neg": {
+      "efficiency": 1,
+      "name": "aten.neg"
+    },
+    "aten.nll_loss2d_backward": {
+      "efficiency": 1,
+      "name": "aten.nll_loss2d_backward"
+    },
+    "aten.nll_loss2d_forward": {
+      "efficiency": 1,
+      "name": "aten.nll_loss2d_forward"
+    },
+    "aten.nll_loss_backward": {
+      "efficiency": 1,
+      "name": "aten.nll_loss_backward"
+    },
+    "aten.nll_loss_forward": {
+      "efficiency": 1,
+      "name": "aten.nll_loss_forward"
+    },
+    "aten.relu": {
+      "efficiency": 1,
+      "name": "aten.relu"
+    },
+    "aten.relu_": {
+      "efficiency": 1,
+      "name": "aten.relu_"
+    },
+    "aten.size": {
+      "efficiency": 1,
+      "name": "aten.size"
+    },
+    "aten.squeeze": {
+      "efficiency": 1,
+      "name": "aten.squeeze"
+    },
+    "aten.sub": {
+      "efficiency": 1,
+      "name": "aten.sub"
+    },
+    "aten.sub_": {
+      "efficiency": 1,
+      "name": "aten.sub_"
+    },
+    "aten.sum": {
+      "efficiency": 1,
+      "name": "aten.sum"
+    },
+    "aten.t": {
+      "efficiency": 1,
+      "name": "aten.t"
+    },
+    "aten.threshold": {
+      "efficiency": 1,
+      "name": "aten.threshold"
+    },
+    "aten.threshold_backward": {
+      "efficiency": 1,
+      "name": "aten.threshold_backward"
+    },
+    "aten.type_cast": {
+      "efficiency": 1,
+      "name": "aten.type_cast"
+    },
+    "aten.unsqueeze": {
+      "efficiency": 1,
+      "name": "aten.unsqueeze"
+    },
+    "aten.view": {
+      "efficiency": 1,
+      "name": "aten.view"
+    }
+  },
+  "memories": {
+    "0": {
+      "bytes": 34359738368,
+      "name": "offchip",
+      "read_bytes_per_second": 0,
+      "space": 0,
+      "type": "simplex",
+      "write_bytes_per_second": 0
+    },
+    "1": {
+      "bytes": 33554432,
+      "name": "onchip",
+      "read_bytes_per_second": 0,
+      "space": 1,
+      "type": "duplex",
+      "write_bytes_per_second": 0
+    },
+    "2": {
+      "bytes": 32768,
+      "name": "tile",
+      "read_bytes_per_second": 0,
+      "space": 2,
+      "type": "duplex",
+      "write_bytes_per_second": 0
+    }
+  },
+  "ops_per_core_per_cycle": 8
+}
