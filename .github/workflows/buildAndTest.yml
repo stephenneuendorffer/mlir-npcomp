@@ -65,6 +65,9 @@ jobs:
     - name: Install pytest
       run: |
         pip3 install pytest
+    - name: Install torch
+      run: |
+        pip3 install torch
     - name: Install pybind11
       run: |
         sudo apt-get install python3-pybind11
